@@ -6,16 +6,16 @@ A package to help you encrypt/decrypt files and strings with simple functions
 
 import the functions you need
 
-<code>
+``` js
     const {fileEncryptor, fileDecryptor, keyEncryptor, keyDecryptor} = require('easecrypto')
-</code>
+```
 
 ## Functions
 
 ### File Encryptor
 
 #### Example
-<code>
+``` js
     fileEncryptor('./src.json', './dist.ms', privateKey,'r', ((data, err) => {
         if(err){
             console.error(err);
@@ -23,7 +23,7 @@ import the functions you need
             console.log(data);
         }
     }))
-</code>
+```
 
 #### Functions parameters
 
@@ -39,7 +39,7 @@ import the functions you need
 
 make sure you pass the flag parameter! pass 'r' or null. Otherwise it will throw an error.
 
-<code>
+``` js
     fileEncryptor('./src.json', './dist.ms', privateKey,null, ((data, err) => {
         if(err){
             console.error(err);
@@ -47,17 +47,17 @@ make sure you pass the flag parameter! pass 'r' or null. Otherwise it will throw
             console.log(data);
         }
     }))
-</code>
+```
 
 
 ### File Decryptor
 
 #### Example
-<code>
+``` js
     fileDecryptor('./dist.ms', './new.json', privateKey, (res => {
         console.log(res);
     }))
-</code>
+```
 
 #### Functions parameters
 
@@ -72,18 +72,18 @@ make sure you pass the flag parameter! pass 'r' or null. Otherwise it will throw
 
 make sure you pass the destination path parameter! either a path value or null. Otherwise it will throw an error.
 
-<code>
+``` js
     fileDecryptor('./dist.ms', null, privateKey, (res => {
         console.log(res);
     }))
-</code>
+```
 
 ### Key Encryptor
 
 #### Example
-<code>
+``` js
     const encryptedKey = keyEncryptor("secret password", privateKey)
-</code>
+```
 
 #### Functions parameters
 
@@ -95,9 +95,9 @@ make sure you pass the destination path parameter! either a path value or null. 
 ### Key Decryptor
 
 #### Example
-<code>
+``` js
     const decryptedKey = keyDecryptor(encryptedKey, privateKey)
-</code>
+```
 
 #### Functions parameters
 
