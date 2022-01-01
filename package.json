@@ -1,0 +1,24 @@
+{
+  "name": "easecrypto",
+  "version": "1.0.0",
+  "description": "cipher/decipher files and private keys easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "keywords": [
+    "cryptor",
+    "cipher",
+    "encryptor",
+    "decryptor",
+    "decipher"
+  ],
+  "author": "Mehdi Jai",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
