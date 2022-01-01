@@ -2,7 +2,16 @@
 
 A package to help you encrypt/decrypt files and strings with simple functions
 
+## Installation
+
+Install via npm
+
+``` bash
+    $ npm install easecrypto
+```
+
 ## How to use
+
 
 import the functions you need
 

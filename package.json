@@ -1,6 +1,6 @@
 {
   "name": "easecrypto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cipher/decipher files and private keys easily",
   "main": "index.js",
   "scripts": {
