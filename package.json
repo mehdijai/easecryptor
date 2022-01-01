@@ -4,16 +4,22 @@
   "description": "cipher/decipher files and private keys easily",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon ."
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/MEDOSTUDIOS/easecryptor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEDOSTUDIOS/easecryptor.git"
   },
   "keywords": [
-    "cryptor",
+    "encrypt",
     "cipher",
-    "encryptor",
-    "decryptor",
+    "encryption",
+    "decrypt",
+    "Decryption",
     "decipher"
   ],
-  "author": "Mehdi Jai",
+  "author": "Mehdi Jai <mehdi@medostudios.com>",
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.1.1"
