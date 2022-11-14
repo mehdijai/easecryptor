@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "description": "cipher/decipher files and private keys easily",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "homepage": "https://github.com/mehdijai/easecryptor",
   "repository": {
     "type": "git",
