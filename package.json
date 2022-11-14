@@ -1,15 +1,15 @@
 {
   "name": "easecrypto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "cipher/decipher files and private keys easily",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/MEDOSTUDIOS/easecryptor",
+  "homepage": "https://github.com/mehdijai/easecryptor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MEDOSTUDIOS/easecryptor.git"
+    "url": "git+https://github.com/mehdijai/easecryptor.git"
   },
   "keywords": [
     "encrypt",
